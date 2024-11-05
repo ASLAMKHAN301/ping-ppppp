@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="font-libre">
+    <div class="flex justify-center h-screen ">
+        <div class="flex flex-col py-10">
+          <div class="flex flex-col items-center">
+            <img src="images/logo.svg" alt="" class="pt-7">
+            <h1 class="text-4xl font-thin pt-10 text-gray-light">We are launching 
+            <span class="font-bold text-very-dark-blue">soon!</span></h1>
+            <p class="text-lg text-very-dark-blue pt-4">Subscribe and get notified</p>
+          </div>
+            <div class="relative flex flex-col space-y-10 md:flex-row md:space-y-0 justify-between w-full pt-10">
+                <input type="text" class="input pl-6 pr-36 py-3 rounded-full border-2" placeholder="your email address">
+                <button class="button px-14 py-3 bg-blue-light text-white rounded-full shadow-2xl 
+                hover:bg-blue-300">Notify Me</button>
+                <p class="error-message hidden absolute bottom-16 md:-bottom-6 pl-7 text-sm mt-3 font-bold text-light-red">
+                    Please provide a valid email address
+                </p>
+            </div>
+            
+            <img src="images/illustration-dashboard.png" alt="" class="pt-16 max-w-xl">
+            <div class="flex justify-center space-x-7 pt-10">
+                <img src="images/icon-facebook.svg" alt="" ">
+                <img src="images/icon-twitter.svg" alt="" ">
+                <img src="images/icon-instagram.svg" alt="" ">
+            </div>
+            <p class="text-lg pt-5 text-pale-blue pb-10 text-center">&copy; Copyright Ping. All rights reserved.</p>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
